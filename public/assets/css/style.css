@@ -371,163 +371,66 @@ textarea.form-control {
 /*================================================
 Preloader CSS
 =================================================*/
-.preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 999999;
-  text-align: center;
-  -webkit-transition: .9s;
-  transition: .9s;
-}
 
-.preloader .loader {
-  position: absolute;
-  top: 43%;
-  left: 0;
-  right: 0;
-  -webkit-transform: translateY(-43%);
-          transform: translateY(-43%);
-  text-align: center;
-  margin: 0 auto;
-  width: 50px;
-  height: 50px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.preloader .box {
-  width: 100%;
-  height: 100%;
+#back__preloader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  display: -webkit- flex;
+  display: -ms- flex;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
   background: #ffffff;
-  -webkit-animation: animate .5s linear infinite;
-          animation: animate .5s linear infinite;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.preloader .shadow {
+  position: fixed;
+  z-index: 999999;
   width: 100%;
-  height: 5px;
-  background: #000000;
-  opacity: 0.1;
-  position: absolute;
-  top: 59px;
-  left: 0;
-  border-radius: 50%;
-  -webkit-animation: shadow .5s linear infinite;
-          animation: shadow .5s linear infinite;
-}
-
-.preloader::before, .preloader::after {
-  content: '';
-  position: absolute;
-  left: 0;
   top: 0;
-  width: 60%;
-  height: 100%;
-  z-index: -1;
-  background: #ff1949;
-  -webkit-transition: .9s;
-  transition: .9s;
-}
-
-.preloader::after {
-  left: auto;
+  left: 0;
   right: 0;
+  bottom: 0;
 }
-
-.preloader.preloader-deactivate {
-  visibility: hidden;
+.back__loader_logo {
+  position: absolute;
 }
-
-.preloader.preloader-deactivate::after, .preloader.preloader-deactivate::before {
-  width: 0;
+.back__loader_logo img {
+  width: 40px;
 }
-
-.preloader.preloader-deactivate .loader {
-  opacity: 0;
-  visibility: hidden;
+#back__circle_loader {
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-width: 5px;
+  border-top-color: #465fe9;
+  border-right-color: #465fe9;
+  border-bottom-color: #d5eaff;
+  border-left-color: #d5eaff;
+  border-radius: 50%;
+  -webkit-animation: spinLoader 2s linear infinite;
+  animation: spinLoader 2s linear infinite;
 }
-
-@-webkit-keyframes loader {
+@-webkit-keyframes spinLoader {
   0% {
-    left: -100px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-    left: 110%;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
-
-@keyframes loader {
+@keyframes spinLoader {
   0% {
-    left: -100px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-    left: 110%;
-  }
-}
-
-@-webkit-keyframes animate {
-  17% {
-    border-bottom-right-radius: 3px;
-  }
-  25% {
-    -webkit-transform: translateY(9px) rotate(22.5deg);
-            transform: translateY(9px) rotate(22.5deg);
-  }
-  50% {
-    -webkit-transform: translateY(18px) scale(1, 0.9) rotate(45deg);
-            transform: translateY(18px) scale(1, 0.9) rotate(45deg);
-    border-bottom-right-radius: 40px;
-  }
-  75% {
-    -webkit-transform: translateY(9px) rotate(67.5deg);
-            transform: translateY(9px) rotate(67.5deg);
-  }
-  100% {
-    -webkit-transform: translateY(0) rotate(90deg);
-            transform: translateY(0) rotate(90deg);
-  }
-}
-
-@keyframes animate {
-  17% {
-    border-bottom-right-radius: 3px;
-  }
-  25% {
-    -webkit-transform: translateY(9px) rotate(22.5deg);
-            transform: translateY(9px) rotate(22.5deg);
-  }
-  50% {
-    -webkit-transform: translateY(18px) scale(1, 0.9) rotate(45deg);
-            transform: translateY(18px) scale(1, 0.9) rotate(45deg);
-    border-bottom-right-radius: 40px;
-  }
-  75% {
-    -webkit-transform: translateY(9px) rotate(67.5deg);
-            transform: translateY(9px) rotate(67.5deg);
-  }
-  100% {
-    -webkit-transform: translateY(0) rotate(90deg);
-            transform: translateY(0) rotate(90deg);
-  }
-}
-
-@-webkit-keyframes shadow {
-  50% {
-    -webkit-transform: scale(1.2, 1);
-            transform: scale(1.2, 1);
-  }
-}
-
-@keyframes shadow {
-  50% {
-    -webkit-transform: scale(1.2, 1);
-            transform: scale(1.2, 1);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -3379,7 +3282,7 @@ Courses Categories CSS
 }
 
 .courses-categories-area.bg-image {
-  background-image: url(../img/pattern.jpg);
+  
 }
 
 .single-categories-courses-box {
@@ -4175,16 +4078,16 @@ Offer CSS
 }
 
 .col-lg-4:nth-child(3) .single-offer-box::before {
-  background: #3d64ff;
+  background: rgba(252, 205, 6, 1);
 }
 
 .col-lg-4:nth-child(3) .single-offer-box .icon {
-  border-color: #fea116;
-  color: #fea116;
+  border-color: rgba(252, 205, 6, 1);
+  color: rgba(252, 205, 6, 1);
 }
 
 .col-lg-4:nth-child(3) .single-offer-box:hover .icon {
-  background-color: #fea116;
+  background-color: rgba(0, 125, 255, 1);
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -18741,7 +18644,7 @@ Training Overview Area CSS
   position: absolute;
   left: 0;
   top: 0;
-  height: 100%;
+  height: 80%;
   z-index: -1;
   background: #0E2742;
   border-radius: 0 300px 300px 0;
@@ -18759,7 +18662,7 @@ Training Overview Area CSS
 }
 
 .training-overview-content h3 {
-  margin-bottom: 0;
+  margin-bottom: 60px;
   line-height: 1.5;
   font-size: 38px;
   font-weight: 700;
@@ -18768,6 +18671,64 @@ Training Overview Area CSS
 
 .training-overview-btn {
   text-align: right;
+}
+.newsletter__area .newsletter__form {
+  position: relative;
+}
+.newsletter__area {
+  background-size: cover;
+  padding: 45px 0;
+}
+.newsletter__area .newsletter__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newsletter__area .newsletter__form {
+  position: relative;
+}
+.newsletter__area .newsletter__form input {
+  width: 400px;
+  height: 60px;
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  background: #ffffff;
+  border-radius: 44px;
+  -webkit-box-shadow: 0px 20px 30px 0px rgba(8, 0, 42, 0.14);
+  -moz-box-shadow: 0px 20px 30px 0px rgba(8, 0, 42, 0.14);
+  box-shadow: 0px 20px 30px 0px rgba(8, 0, 42, 0.14);
+  margin-bottom: 70px;
+  margin-left: -40px;
+}
+.newsletter__area .newsletter__form input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #737383;
+}
+.newsletter__area .newsletter__form input:focus {
+  -webkit-box-shadow: 0px 20px 30px 0px rgba(8, 0, 42, 0.14);
+  -moz-box-shadow: 0px 20px 30px 0px rgba(8, 0, 42, 0.14);
+  box-shadow: 0px 20px 30px 0px rgba(8, 0, 42, 0.14);
+}
+.newsletter__area .newsletter__form button {
+  position: absolute;
+  width: 130px;
+  height: 60.5px;
+  line-height: 28px;
+  padding: 0 5px;
+  background: #000000;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 0 44px 44px 0;
+  border: none;
+  right: 0;
+  transition: all 0.5s ease 0s;
+}
+.newsletter__area .newsletter__form button:hover {
+  opacity: .9;
 }
 
 /*================================================

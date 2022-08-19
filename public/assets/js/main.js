@@ -930,10 +930,12 @@ jQuery(function ($) {
         $(".gym-banner-content .default-btn").addClass("animated fadeInLeft").css("opacity", "1");
     });
 
-    // Preloader JS
-	$(window).on('load', function() {
-		$('.preloader').addClass('preloader-deactivate');
-	});
+  
+    //preloader
+    $(window).on( 'load', function() {
+        $("#back__preloader").delay(1000).fadeOut(400);
+        $("#back__preloader").delay(1000).fadeOut(400);
+    })
 
     /* Online Motivation Course JS, Online Education Course JS, Online Training Course JS */
 

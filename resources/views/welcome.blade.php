@@ -30,12 +30,10 @@
     <body>
 
         <!-- Preloader -->
-        <div class="preloader">
-            <div class="loader">
-                <div class="shadow"></div>
-                <div class="box"></div>
-            </div>
-        </div>
+        <div id="back__preloader">
+            <div id="back__circle_loader"></div>
+            <div class="back__loader_logo"><img src="assets/img/preload.png" alt="Preload"></div>
+        </div>  
         <!-- End Preloader -->
 
         <!-- Start Header Area -->
@@ -248,532 +246,157 @@
             </div>
         </section>
         <!-- End Offer Area -->
-        <section class="courses-categories-area bg-image pt-100 pb-70">
+        <section class="faq-area  pb-100">
+            
+        </section>
+        <!-- End Funfacts And Feedback Area -->
+
+        <!-- Start FAQ Area -->
+        <section class="faq-area ">
             <div class="container">
-                <div class="section-title">
-                    <h2>Apa Saja yang Akan Kamu Pelajari</h2>
-
+            <div class="section-title">
+                    <h2>Syarat Pendaftaran</h2>
                 </div>
-
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6 col-md-4">
-                        <div class="single-categories-courses-box mb-30">
-                            <div class="icon">
-                                <i class='bx bx-code-alt'></i>
-                            </div>
-                            <h3>Materi Basic untuk Web Development</h3>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="faq-video">
+                            <img src="assets/img/business-coaching/faq.jpg" alt="image">
+
+                            <a href="https://www.youtube.com/watch?v=bk7McNUjWgw" class="video-btn popup-youtube"><i class='bx bx-play'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="faq-accordion faq-accordion-style-two">
+                            <ul class="accordion">
+                                <li class="accordion-item">
+                                    <a class="accordion-title active" href="javascript:void(0)">
+                                        <i class='bx bx-chevron-down'></i>
+                                        Step 1
+                                    </a>
     
-                            <a href="#" class="link-btn"></a>
-                        </div>
-                    </div>
+                                    <div class="accordion-content show">
+                                        <p>WNI dan berdomisili di seluruh Indonesia</p>
+                                    </div>
+                                </li>
 
-                    <div class="col-lg-3 col-sm-6 col-md-4">
-                        <div class="single-categories-courses-box mb-30">
-                            <div class="icon">
-                                <i class='bx bx-camera'></i>
-                            </div>
-                            <h3>Materi Advance untuk Web Development </h3>
+                                <li class="accordion-item">
+                                    <a class="accordion-title" href="javascript:void(0)">
+                                        <i class='bx bx-chevron-down'></i>
+                                        Step 2
+                                    </a>
+    
+                                    <div class="accordion-content">
+                                        <p>Minimal SMA/Sederajat</p>
+                                    </div>
+                                </li>
 
-                            <a href="#" class="link-btn"></a>
-                        </div>
-                    </div>
+                                <li class="accordion-item">
+                                    <a class="accordion-title" href="javascript:void(0)">
+                                        <i class='bx bx-chevron-down'></i>
+                                        Step 3
+                                    </a>
+    
+                                    <div class="accordion-content">
+                                        <p>Wajib mengikuti kelas bootcamp sesuai dengan jadwal yang ditentukan.</p>
+                                    </div>
+                                </li>
 
-                    <div class="col-lg-3 col-sm-6 col-md-4">
-                        <div class="single-categories-courses-box mb-30">
-                            <div class="icon">
-                                <i class='bx bx-layer'></i>
-                            </div>
-                            <h3>Komunikasi berbahasa Inggris</h3>
+                                <li class="accordion-item">
+                                    <a class="accordion-title" href="javascript:void(0)">
+                                        <i class='bx bx-chevron-down'></i>
+                                        Step 4
+                                    </a>
+    
+                                    <div class="accordion-content">
+                                        <p>Berkomitmen untuk menyelesaikan program bootcamp sampai selesai</p>
+                                    </div>
+                                </li>
 
+                                <li class="accordion-item">
+                                    <a class="accordion-title" href="javascript:void(0)">
+                                        <i class='bx bx-chevron-down'></i>
+                                        Step 5
+                                    </a>
+    
+                                    <div class="accordion-content">
+                                        <p>Mempunyai passion dibidang IT dan mempunyai semangat untuk belajar</p>
+                                    </div>
+                                </li>
 
-                            <a href="#" class="link-btn"></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6 col-md-4 offset-lg-0 offset-md-4">
-                        <div class="single-categories-courses-box mb-30">
-                            <div class="icon">
-                                <i class='bx bxs-flag-checkered'></i>
-                            </div>
-                            <h3>Training Langsung dalam Project Inosoft</h3>
-
-
-                            <a href="#" class="link-btn"></a>
+                                <li class="accordion-item">
+                                    <a class="accordion-title" href="javascript:void(0)">
+                                        <i class='bx bx-chevron-down'></i>
+                                        Step 6
+                                    </a>
+    
+                                    <div class="accordion-content">
+                                        <p>Memiliki laptop dengan spesifikasi minimal : OS : Linux OS (Ubuntu) / Windows 32/64 bit / MacOS Memory : 4GB RAM Memory (disarankan 8GB Memory)</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div id="particles-js-circle-bubble-2"></div>
+            <div class="divider bg-f9f9f9"></div>
         </section>
-        <!-- Start Courses Area -->
-        <section class="courses-area pt-100 pb-70">
+        <!-- End FAQ Area -->
+        <!-- Start Information Area -->
+        <section class="information-area ptb-100">
             <div class="container">
-                <div class="section-title text-left">
-                    <span class="sub-title">Discover Courses</span>
-                    <h2>Our Popular Online Courses</h2>
-                    <a href="courses-2-columns-style-2.html" class="default-btn"><i class='bx bx-show-alt icon-arrow before'></i><span class="label">All Courses</span><i class="bx bx-show-alt icon-arrow after"></i></a>
-                </div>
-
-                <div class="shorting-menu">
-                    <button class="filter" data-filter="all">All (06)</button>
-                    <button class="filter" data-filter=".business">Business (02)</button>
-                    <button class="filter" data-filter=".design">Design (05)</button>
-                    <button class="filter" data-filter=".development">Development (04)</button>
-                    <button class="filter" data-filter=".language">Language (02)</button>
-                    <button class="filter" data-filter=".management">Management (03)</button>
-                    <button class="filter" data-filter=".photography">Photography (04)</button>
-                </div>
-
-                <div class="shorting">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 mix business design language">
-                            <div class="single-courses-item mb-30">
-                                <div class="courses-image">
-                                    <a href="single-courses.html" class="d-block"><img src="assets/img/courses/1.jpg" alt="image"></a>
-                                </div>
-    
-                                <div class="courses-content">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="course-author d-flex align-items-center">
-                                            <img src="assets/img/user1.jpg" class="shadow" alt="image">
-                                            <span>Steven Smith</span>
-                                        </div>
-
-                                        <div class="courses-rating">
-                                            <div class="review-stars-rated">
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star-half'></i>
-                                            </div>
-        
-                                            <div class="rating-total">
-                                                4.5 (2)
-                                            </div>
-                                        </div>
-                                    </div>
-    
-                                    <h3><a href="single-courses.html" class="d-inline-block">Raque Professional IT Expert Certificate Course</a></h3>
-                                    <p>Education encompasses both the teaching and learning of knowledge.</p>
-                                </div>
-    
-                                <div class="courses-box-footer">
-                                    <ul>
-                                        <li class="students-number">
-                                            <i class='bx bx-user'></i> 10 students
-                                        </li>
-    
-                                        <li class="courses-lesson">
-                                            <i class='bx bx-book-open'></i> 6 lessons
-                                        </li>
-    
-                                        <li class="courses-price">
-                                            Free
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="information-image text-center">
+                            <img src="assets/img/information-img.png" alt="image">
                         </div>
-    
-                        <div class="col-lg-4 col-md-6 mix design development management photography">
-                            <div class="single-courses-item mb-30">
-                                <div class="courses-image">
-                                    <a href="single-courses.html" class="d-block"><img src="assets/img/courses/2.jpg" alt="image"></a>
-                                </div>
-    
-                                <div class="courses-content">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="course-author d-flex align-items-center">
-                                            <img src="assets/img/user2.jpg" class="shadow" alt="image">
-                                            <span>Sarah Taylor</span>
-                                        </div>
+                    </div>
 
-                                        <div class="courses-rating">
-                                            <div class="review-stars-rated">
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star-half'></i>
-                                            </div>
-        
-                                            <div class="rating-total">
-                                                4.5 (2)
-                                            </div>
-                                        </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="information-content">
+                            <span class="sub-title">Information</span>
+                            <h2>Alur Pendaftaran</h2>
+                            <ul class="apply-details">
+                                <li>
+                                    <div class="icon">
+                                        <i class="flaticon-checkmark"></i>
                                     </div>
-    
-                                    <h3><a href="single-courses.html" class="d-inline-block">Certified Graphic Design with Free Project Course</a></h3>
-                                    <p>Education encompasses both the teaching and learning of knowledge.</p>
-                                </div>
-    
-                                <div class="courses-box-footer">
-                                    <ul>
-                                        <li class="students-number">
-                                            <i class='bx bx-user'></i> 15 students
-                                        </li>
-    
-                                        <li class="courses-lesson">
-                                            <i class='bx bx-book-open'></i> 10 lessons
-                                        </li>
-    
-                                        <li class="courses-price">
-                                            $250
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="col-lg-4 col-md-6 mix development business management">
-                            <div class="single-courses-item mb-30">
-                                <div class="courses-image">
-                                    <a href="single-courses.html" class="d-block"><img src="assets/img/courses/3.jpg" alt="image"></a>
-                                </div>
-    
-                                <div class="courses-content">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="course-author d-flex align-items-center">
-                                            <img src="assets/img/user3.jpg" class="shadow" alt="image">
-                                            <span>Anderson</span>
-                                        </div>
+                                    <h3>Select Suitable Course</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                </li>
 
-                                        <div class="courses-rating">
-                                            <div class="review-stars-rated">
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bx-star'></i>
-                                            </div>
-        
-                                            <div class="rating-total">
-                                                4.0 (1)
-                                            </div>
-                                        </div>
+                                <li>
+                                    <div class="icon">
+                                        <i class="flaticon-login"></i>
                                     </div>
-    
-                                    <h3><a href="single-courses.html" class="d-inline-block">Photography Crash Course for Photographer</a></h3>
-                                    <p>Education encompasses both the teaching and learning of knowledge.</p>
-                                </div>
-    
-                                <div class="courses-box-footer">
-                                    <ul>
-                                        <li class="students-number">
-                                            <i class='bx bx-user'></i> 5 students
-                                        </li>
-    
-                                        <li class="courses-lesson">
-                                            <i class='bx bx-book-open'></i> 5 lessons
-                                        </li>
-    
-                                        <li class="courses-price">
-                                            $150
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="col-lg-4 col-md-6 mix language design development photography">
-                            <div class="single-courses-item mb-30">
-                                <div class="courses-image">
-                                    <a href="single-courses.html" class="d-block"><img src="assets/img/courses/4.jpg" alt="image"></a>
-                                </div>
-    
-                                <div class="courses-content">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="course-author d-flex align-items-center">
-                                            <img src="assets/img/user4.jpg" class="shadow" alt="image">
-                                            <span>Liam King</span>
-                                        </div>
-
-                                        <div class="courses-rating">
-                                            <div class="review-stars-rated">
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bx-star'></i>
-                                            </div>
-        
-                                            <div class="rating-total">
-                                                4.0 (1)
-                                            </div>
-                                        </div>
+                                    <h3>Student Information</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                </li>
+                                
+                                <li>
+                                    <div class="icon">
+                                        <i class="flaticon-credit-card"></i>
                                     </div>
-    
-                                    <h3><a href="single-courses.html" class="d-inline-block">Web Design for Developing Technology with Joy</a></h3>
-                                    <p>Education encompasses both the teaching and learning of knowledge.</p>
-                                </div>
-    
-                                <div class="courses-box-footer">
-                                    <ul>
-                                        <li class="students-number">
-                                            <i class='bx bx-user'></i> 10 students
-                                        </li>
-    
-                                        <li class="courses-lesson">
-                                            <i class='bx bx-book-open'></i> 6 lessons
-                                        </li>
-    
-                                        <li class="courses-price">
-                                            <span>$200</span>
-                                            $195
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="col-lg-4 col-md-6 mix management design photography">
-                            <div class="single-courses-item mb-30">
-                                <div class="courses-image">
-                                    <a href="single-courses.html" class="d-block"><img src="assets/img/courses/5.jpg" alt="image"></a>
-                                </div>
-    
-                                <div class="courses-content">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="course-author d-flex align-items-center">
-                                            <img src="assets/img/user5.jpg" class="shadow" alt="image">
-                                            <span>Lina</span>
-                                        </div>
-
-                                        <div class="courses-rating">
-                                            <div class="review-stars-rated">
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                            </div>
-        
-                                            <div class="rating-total">
-                                                5.0 (1)
-                                            </div>
-                                        </div>
-                                    </div>
-    
-                                    <h3><a href="single-courses.html" class="d-inline-block">Information About UI/UX Design Degree</a></h3>
-                                    <p>Education encompasses both the teaching and learning of knowledge.</p>
-                                </div>
-    
-                                <div class="courses-box-footer">
-                                    <ul>
-                                        <li class="students-number">
-                                            <i class='bx bx-user'></i> 5 students
-                                        </li>
-    
-                                        <li class="courses-lesson">
-                                            <i class='bx bx-book-open'></i> 5 lessons
-                                        </li>
-    
-                                        <li class="courses-price">
-                                            $178
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="col-lg-4 col-md-6 mix photography design development photography">
-                            <div class="single-courses-item mb-30">
-                                <div class="courses-image">
-                                    <a href="single-courses.html" class="d-block"><img src="assets/img/courses/6.jpg" alt="image"></a>
-                                </div>
-    
-                                <div class="courses-content">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="course-author d-flex align-items-center">
-                                            <img src="assets/img/user6.jpg" class="shadow" alt="image">
-                                            <span>David Warner</span>
-                                        </div>
-
-                                        <div class="courses-rating">
-                                            <div class="review-stars-rated">
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bxs-star'></i>
-                                                <i class='bx bx-star'></i>
-                                            </div>
-        
-                                            <div class="rating-total">
-                                                4.0 (1)
-                                            </div>
-                                        </div>
-                                    </div>
-    
-                                    <h3><a href="single-courses.html" class="d-inline-block">Photography Photo modify and Beautiful</a></h3>
-                                    <p>Education encompasses both the teaching and learning of knowledge.</p>
-                                </div>
-    
-                                <div class="courses-box-footer">
-                                    <ul>
-                                        <li class="students-number">
-                                            <i class='bx bx-user'></i> 11 students
-                                        </li>
-    
-                                        <li class="courses-lesson">
-                                            <i class='bx bx-book-open'></i> 1 lessons
-                                        </li>
-    
-                                        <li class="courses-price">
-                                            $500
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                                    <h3>Payment Information</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                </li>
+                                
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End Courses Area -->
+        <!-- End Information Area -->
 
-        <!-- Start Courses Categories Area -->
-        <section class="courses-categories-area pb-70">
-            <div class="container">
-                <div class="section-title text-left">
-                    <h2>Browse Trending Categories</h2>
-                </div>
-
-                <div class="courses-categories-slides owl-carousel owl-theme">
-                    <div class="single-categories-courses-item bg1 mb-30">
-                        <div class="icon">
-                            <i class='bx bx-code-alt'></i>
-                        </div>
-                        <h3>Web Development</h3>
-                        <span>60 Courses</span>
-
-                        <a href="#" class="learn-more-btn">Learn More <i class='bx bx-book-reader'></i></a>
-
-                        <a href="#" class="link-btn"></a>
-                    </div>
-
-                    <div class="single-categories-courses-item bg2 mb-30">
-                        <div class="icon">
-                            <i class='bx bx-camera'></i>
-                        </div>
-                        <h3>Photography </h3>
-                        <span>21 Courses</span>
-
-                        <a href="#" class="learn-more-btn">Learn More <i class='bx bx-book-reader'></i></a>
-
-                        <a href="#" class="link-btn"></a>
-                    </div>
-
-                    <div class="single-categories-courses-item bg3 mb-30">
-                        <div class="icon">
-                            <i class='bx bx-layer'></i>
-                        </div>
-                        <h3>Graphics Design</h3>
-                        <span>58 Courses</span>
-
-                        <a href="#" class="learn-more-btn">Learn More <i class='bx bx-book-reader'></i></a>
-
-                        <a href="#" class="link-btn"></a>
-                    </div>
-
-                    <div class="single-categories-courses-item bg4 mb-30">
-                        <div class="icon">
-                            <i class='bx bxs-flag-checkered'></i>
-                        </div>
-                        <h3>Web Language</h3>
-                        <span>99 Courses</span>
-
-                        <a href="#" class="learn-more-btn">Learn More <i class='bx bx-book-reader'></i></a>
-
-                        <a href="#" class="link-btn"></a>
-                    </div>
-
-                    <div class="single-categories-courses-item bg5 mb-30">
-                        <div class="icon">
-                            <i class='bx bx-health'></i>
-                        </div>
-                        <h3>Health & Fitness</h3>
-                        <span>21 Courses</span>
-
-                        <a href="#" class="learn-more-btn">Learn More <i class='bx bx-book-reader'></i></a>
-
-                        <a href="#" class="link-btn"></a>
-                    </div>
-
-                    <div class="single-categories-courses-item bg6 mb-30">
-                        <div class="icon">
-                            <i class='bx bx-line-chart'></i>
-                        </div>
-                        <h3>Business Studies</h3>
-                        <span>49 Courses</span>
-
-                        <a href="#" class="learn-more-btn">Learn More <i class='bx bx-book-reader'></i></a>
-
-                        <a href="#" class="link-btn"></a>
-                    </div>
-                </div>
-            </div>
-
-            <div id="particles-js-circle-bubble-2"></div>
-        </section>
-        <!-- End Courses Categories Area -->
-
-        <!-- Start Partner Area -->
-        <section class="partner-area pb-100">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Our Company & Partners</h2>
-                </div>
-
-                <div class="partner-slides owl-carousel owl-theme">
-                    <div class="single-partner-item">
-                        <a href="#" class="d-block">
-                            <img src="assets/img/partner/7.png" alt="image">
-                        </a>
-                    </div>
-
-                    <div class="single-partner-item">
-                        <a href="#" class="d-block">
-                            <img src="assets/img/partner/8.png" alt="image">
-                        </a>
-                    </div>
-
-                    <div class="single-partner-item">
-                        <a href="#" class="d-block">
-                            <img src="assets/img/partner/9.png" alt="image">
-                        </a>
-                    </div>
-
-                    <div class="single-partner-item">
-                        <a href="#" class="d-block">
-                            <img src="assets/img/partner/10.png" alt="image">
-                        </a>
-                    </div>
-
-                    <div class="single-partner-item">
-                        <a href="#" class="d-block">
-                            <img src="assets/img/partner/11.png" alt="image">
-                        </a>
-                    </div>
-
-                    <div class="single-partner-item">
-                        <a href="#" class="d-block">
-                            <img src="assets/img/partner/12.png" alt="image">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Partner Area -->
-
-        <!-- Start Become Instructor & Partner Area -->
-        <section class="become-instructor-partner-area">
+         <!-- Start Become Instructor & Partner Area -->
+         <section class="become-instructor-partner-area">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <div class="become-instructor-partner-content bg-color">
-                            <h2>Become an Instructor</h2>
+                            <h2>Frontend Developer</h2>
                             <p>Choose from hundreds of free courses, or get a degree or certificate at a breakthrough price. Learn at your own pace.</p>
                             <a href="login.html" class="default-btn"><i class='bx bx-plus-circle icon-arrow before'></i><span class="label">Apply Now</span><i class="bx bx-plus-circle icon-arrow after"></i></a>
                         </div>
@@ -793,7 +416,7 @@
 
                     <div class="col-lg-6 col-md-6">
                         <div class="become-instructor-partner-content">
-                            <h2>Become a Partner</h2>
+                            <h2>Backend Developer</h2>
                             <p>Choose from hundreds of free courses, or get a degree or certificate at a breakthrough price. Learn at your own pace.</p>
                             <a href="login.html" class="default-btn"><i class='bx bx-plus-circle icon-arrow before'></i><span class="label">Contact Us</span><i class="bx bx-plus-circle icon-arrow after"></i></a>
                         </div>
@@ -802,9 +425,52 @@
             </div>
         </section>
         <!-- End Become Instructor & Partner Area -->
+            
+            <div id="particles-js-circle-bubble-2"></div>
+        </section>
+        <!-- Start Courses Area -->
+        <section class="courses-area pt-100 pb-70">
+         <div class="training-overview-area ptb-100">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="training-overview-content">
+                            <h3>
+                            Newsletter to get in touch
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-md-6">
+                        <div class="training-overview-btn">
+                        <<div class="newsletter__area">
+                    <div class="container newsletter__width">
+                        <div class="row">
+                            <div class="col-xxl-12">
+                                <div class="newsletter__wrapper">
+                                    <div class="newsletter__form">
+                                        <form>
+                                            <input type="email" placeholder="Your Email">
+                                            <button type="submit">Subscribe</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        <!-- End Training Overview Area -->
+            </div>
+        </section>
+        <!-- End Courses Area -->
 
         <!-- Start Testimonials Area -->
-        <section class="testimonials-area pt-100">
+        <section class="testimonials-area pt-80">
             <div class="container">
                 <div class="section-title">
                     <span class="sub-title">Testimonials</span>
@@ -856,133 +522,88 @@
         </section>
         <!-- End Testimonials Area -->
 
-        <!-- Start Blog Area -->
-        <section class="blog-area pt-100 pb-70">
+       <!-- Start Blog Area -->
+       <section class="blog-area pt-100 pb-70">
             <div class="container">
                 <div class="section-title text-left">
                     <span class="sub-title">Explore News</span>
                     <h2>Our Latest Insights</h2>
-                    <a href="blog-style-2.html" class="default-btn"><i class='bx bx-book-reader icon-arrow before'></i><span class="label">Read All</span><i class="bx bx-book-reader icon-arrow after"></i></a>
+                    <a href="blog-style-1.html" class="default-btn"><i class='bx bx-book-reader icon-arrow before'></i><span class="label">Read All</span><i class="bx bx-book-reader icon-arrow after"></i></a>
                 </div>
-
-                <div class="blog-slides owl-carousel owl-theme">
-                    <div class="single-blog-post mb-30">
-                        <div class="post-image">
-                            <a href="single-blog.html" class="d-block">
-                                <img src="assets/img/blog/1.jpg" alt="image">
-                            </a>
-
-                            <div class="tag">
-                                <a href="#">Learning</a>
+                
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-blog-post-card mb-30">
+                            <div class="post-image">
+                                <a href="single-blog.html" class="d-block">
+                                    <img src="assets/img/motivation-course/blog/blog-1.jpg" alt="image">
+                                </a>
                             </div>
-                        </div>
-
-                        <div class="post-content">
-                            <ul class="post-meta">
-                                <li class="post-author">
-                                    <img src="assets/img/user1.jpg" class="d-inline-block rounded-circle mr-2" alt="image">
-                                    By: <a href="#" class="d-inline-block">Steven Smith</a>
-                                </li>
-                                <li><a href="#">August 30, 2022</a></li>
-                            </ul>
-                            <h3><a href="single-blog.html" class="d-inline-block">World largest elephant toothpaste experiment in 2022</a></h3>
-                            <a href="single-blog.html" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a>
+    
+                            <div class="post-content">
+                                <div class="tag">
+                                    <a href="#">EDUCATION</a>
+                                </div>
+                                <ul class="post-meta">
+                                    <li class="post-author">
+                                        <img src="assets/img/user1.jpg" class="d-inline-block rounded-circle mr-2" alt="image">
+                                        By: <a href="#" class="d-inline-block">Steven Smith</a>
+                                    </li>
+                                    <li class="date"><i class='bx bxs-calendar'></i> 01/25/2022</li>
+                                </ul>
+                                <h3><a href="single-blog.html" class="d-inline-block">Global education: ideas for the way move forward</a></h3>
+                                <a href="single-blog.html" class="read-more-btn">Read More</a>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="single-blog-post mb-30">
-                        <div class="post-image">
-                            <a href="single-blog.html" class="d-block">
-                                <img src="assets/img/blog/2.jpg" alt="image">
-                            </a>
-
-                            <div class="tag">
-                                <a href="#">Education</a>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-blog-post-card mb-30">
+                            <div class="post-image">
+                                <a href="single-blog.html" class="d-block">
+                                    <img src="assets/img/motivation-course/blog/blog-2.jpg" alt="image">
+                                </a>
                             </div>
-                        </div>
-
-                        <div class="post-content">
-                            <ul class="post-meta">
-                                <li class="post-author">
-                                    <img src="assets/img/user2.jpg" class="d-inline-block rounded-circle mr-2" alt="image">
-                                    By: <a href="#" class="d-inline-block">Lina D'Souja</a>
-                                </li>
-                                <li><a href="#">August 29, 2022</a></li>
-                            </ul>
-                            <h3><a href="single-blog.html" class="d-inline-block">Most Popular Education Posts Of The Week 20-26 Aug</a></h3>
-                            <a href="single-blog.html" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a>
+    
+                            <div class="post-content">
+                                <div class="tag">
+                                    <a href="#">EDUCATION</a>
+                                </div>
+                                <ul class="post-meta">
+                                    <li class="post-author">
+                                        <img src="assets/img/user2.jpg" class="d-inline-block rounded-circle mr-2" alt="image">
+                                        By: <a href="#" class="d-inline-block">Justin Vance</a>
+                                    </li>
+                                    <li class="date"><i class='bx bxs-calendar'></i> 01/25/2022</li>
+                                </ul>
+                                <h3><a href="single-blog.html" class="d-inline-block">New report reimagines the broader education workforce</a></h3>
+                                <a href="single-blog.html" class="read-more-btn">Read More</a>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="single-blog-post mb-30">
-                        <div class="post-image">
-                            <a href="single-blog.html" class="d-block">
-                                <img src="assets/img/blog/3.jpg" alt="image">
-                            </a>
-
-                            <div class="tag">
-                                <a href="#">Management</a>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-blog-post-card mb-30">
+                            <div class="post-image">
+                                <a href="single-blog.html" class="d-block">
+                                    <img src="assets/img/motivation-course/blog/blog-3.jpg" alt="image">
+                                </a>
                             </div>
-                        </div>
-
-                        <div class="post-content">
-                            <ul class="post-meta">
-                                <li class="post-author">
-                                    <img src="assets/img/user3.jpg" class="d-inline-block rounded-circle mr-2" alt="image">
-                                    By: <a href="#" class="d-inline-block">David Malan</a>
-                                </li>
-                                <li><a href="#">August 28, 2022</a></li>
-                            </ul>
-                            <h3><a href="single-blog.html" class="d-inline-block">How to enhance education quality management system</a></h3>
-                            <a href="single-blog.html" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                        </div>
-                    </div>
-
-                    <div class="single-blog-post mb-30">
-                        <div class="post-image">
-                            <a href="single-blog.html" class="d-block">
-                                <img src="assets/img/blog/4.jpg" alt="image">
-                            </a>
-
-                            <div class="tag">
-                                <a href="#">Ideas</a>
+    
+                            <div class="post-content">
+                                <div class="tag">
+                                    <a href="#">EDUCATION</a>
+                                </div>
+                                <ul class="post-meta">
+                                    <li class="post-author">
+                                        <img src="assets/img/user3.jpg" class="d-inline-block rounded-circle mr-2" alt="image">
+                                        By: <a href="#" class="d-inline-block">William Gerard</a>
+                                    </li>
+                                    <li class="date"><i class='bx bxs-calendar'></i> 01/25/2022</li>
+                                </ul>
+                                <h3><a href="single-blog.html" class="d-inline-block">What’s going on in this picture? | Jan. 13, 2022</a></h3>
+                                <a href="single-blog.html" class="read-more-btn">Read More</a>
                             </div>
-                        </div>
-
-                        <div class="post-content">
-                            <ul class="post-meta">
-                                <li class="post-author">
-                                    <img src="assets/img/user5.jpg" class="d-inline-block rounded-circle mr-2" alt="image">
-                                    By: <a href="#" class="d-inline-block">David Warner</a>
-                                </li>
-                                <li><a href="#">August 27, 2022</a></li>
-                            </ul>
-                            <h3><a href="single-blog.html" class="d-inline-block">Global education: Ideas for the way move forward</a></h3>
-                            <a href="single-blog.html" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a>
-                        </div>
-                    </div>
-
-                    <div class="single-blog-post mb-30">
-                        <div class="post-image">
-                            <a href="single-blog.html" class="d-block">
-                                <img src="assets/img/blog/5.jpg" alt="image">
-                            </a>
-
-                            <div class="tag">
-                                <a href="#">Workforce</a>
-                            </div>
-                        </div>
-
-                        <div class="post-content">
-                            <ul class="post-meta">
-                                <li class="post-author">
-                                    <img src="assets/img/user6.jpg" class="d-inline-block rounded-circle mr-2" alt="image">
-                                    By: <a href="#" class="d-inline-block">Olivar Waise</a>
-                                </li>
-                                <li><a href="#">August 26, 2022</a></li>
-                            </ul>
-                            <h3><a href="single-blog.html" class="d-inline-block">New report reimagines the broader education workforce</a></h3>
-                            <a href="single-blog.html" class="read-more-btn">Read More <i class='bx bx-right-arrow-alt'></i></a>
                         </div>
                     </div>
                 </div>
