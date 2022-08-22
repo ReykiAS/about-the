@@ -1,63 +1,4 @@
-/*
-@File: Raque Template Styles
 
-* This file contains the styling for the actual template, this
-is the file you need to edit to change the look of the
-template.
-
-This files table contents are outlined below>>>>>
-
-*******************************************
-*******************************************
-
-** - Default CSS
-** - Preloader CSS
-** - Header CSS
-** - Search Overlay CSS
-** - Main Banner CSS
-** - Boxes CSS
-** - About CSS
-** - Story CSS
-** - Values CSS
-** - Courses Categories CSS
-** - Partner CSS
-** - Offer CSS
-** - Become Instructor & Partner CSS
-** - Funfacts CSS
-** - Features CSS
-** - Courses CSS
-** - Courses Details CSS
-** - Team CSS
-** - Team Details CSS
-** - Mission CSS
-** - Testimonials CSS
-** - Gallery CSS
-** - Students Feedback Form CSS
-** - Blog CSS
-** - Blog Details CSS
-** - How It Works CSS
-** - Pricing CSS
-** - Page Title CSS
-** - Events CSS
-** - Events Details CSS
-** - Count Down CSS
-** - Shop CSS
-** - Product Details CSS
-** - Cart CSS
-** - Checkout CSS
-** - Pagination CSS
-** - Widget Sidebar CSS
-** - Login CSS
-** - Register CSS
-** - FAQ CSS
-** - Coming Soon CSS
-** - Error 404 CSS
-** - Contact CSS
-** - Footer CSS
-*/
-/*================================================
-Default CSS
-=================================================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap");
@@ -288,7 +229,6 @@ img {
 }
 
 .section-title h2 {
-  margin left: -1000px;
   margin-bottom: 12px;
   font-size: 37px;
   font-weight: 700;
@@ -699,8 +639,10 @@ Header CSS
 
 .raque-nav .navbar {
   background-color: #ffffff;
-  padding: 0 20px;
+  padding: 0 100px;
   border-radius: 3px;
+  box-shadow: #000000;
+  
 }
 
 .raque-nav .navbar .navbar-brand {
@@ -16631,6 +16573,8 @@ Motivation Featured Area CSS
 
 .motivation-featured-card {
   margin-bottom: 30px;
+  margin-left: 10%;
+  
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -16640,6 +16584,7 @@ Motivation Featured Area CSS
   height: 70px;
   width: 90px;
   line-height: 70px;
+  
   background-color: #252525;
   color: #ffffff;
   font-size: 20px;
@@ -16655,6 +16600,7 @@ Motivation Featured Area CSS
   margin-bottom: 15px;
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 .motivation-featured-card h3 a {
@@ -16663,6 +16609,7 @@ Motivation Featured Area CSS
 
 .motivation-featured-card p {
   margin-bottom: 0;
+  text-align: center;
 }
 
 .motivation-featured-card .featured-btn {

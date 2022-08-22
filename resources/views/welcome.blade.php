@@ -24,7 +24,7 @@
 
         <title>Home - Sinergi Peta Sejahtera</title>
 
-        <link rel="icon" type="image/png" href="assets/img/favicon.png">
+        <link rel="icon" type="image/png" href="assets/img/fav.png">
     </head>
 
     <body>
@@ -163,7 +163,7 @@
 
                             <div class="col-lg-6 col-md-12">
                                 <div class="hero-banner-image text-center">
-                                    <img src="assets/img/banner-img3.jpg" alt="image">
+                                    <img src="assets/img/banner1.jpg" alt="image">
                                 </div>
                             </div>
                         </div>
@@ -216,7 +216,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-offer-box">
                             <div class="icon">
-                                <i class='bx bx-book-reader'></i>
+                                <i class='bx bx-task'></i>
                             </div> 
                             <h3> Real Project </h3>
                             <p> Memberi pengalaman kerja di bidang IT untuk mempersiapkan pekerjaan </p>
@@ -226,7 +226,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-offer-box">
                             <div class="icon">
-                                <i class='bx bx-target-lock'></i>
+                                <i class='bx bx-star'></i>
                             </div>
                             <h3>Experienced Mentor</h3>
                             <p>Mempelajari langsung dari praktisi dan mentor yang berpengalaman pada bidang IT Development</p>
@@ -236,7 +236,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                         <div class="single-offer-box">
                             <div class="icon">
-                                <i class='bx bxs-thermometer'></i>
+                                <i class='bx bx-globe'></i>
                             </div>
                             <h3>Job Recommendation</h3>
                             <p>Menjadi penghubung antara mahasiswa bertalenta dengan mitra kami</p>
@@ -251,6 +251,94 @@
         </section>
         <!-- End Funfacts And Feedback Area -->
 
+         <!-- Start Motivation Featured Area -->
+         <div class="motivation-featured-area pt-100 pb-70">
+            <div class="container">
+                <div class="section-title text-left">
+                    <div class="row">
+                    <div class="section-title">
+                    <h2>Syarat Pendaftaran</h2>
+                </div>
+
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="motivation-featured-card">
+                            <div class="number">01</div>
+                            <h3>
+                                <a href="single-courses.html">Learn The Latest Skills</a>
+                            </h3>
+                            <p>Like business analytics, graphic design, Python, and more.</p>
+                            <a href="single-courses.html" class="featured-btn">View Courses +</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="motivation-featured-card">
+                            <div class="number">02</div>
+                            <h3>
+                                <a href="single-courses.html">100k Online Courses</a>
+                            </h3>
+                            <p>In high-demand fields like IT, AI and cloud engineering.</p>
+                            <a href="single-courses.html" class="featured-btn">View Courses +</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="motivation-featured-card">
+                            <div class="number">03</div>
+                            <h3>
+                                <a href="single-courses.html">Earn A Certificate</a>
+                            </h3>
+                            <p>From a leading university in business, computer science, and more.</p>
+                            <a href="single-courses.html" class="featured-btn">View Courses +</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Motivation Featured Area -->
+        <!-- Start Motivation Featured Area -->
+        <div class="motivation-featured-area pt-10 pb-70">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="motivation-featured-card">
+                            <div class="number">01</div>
+                            <h3>
+                                <a href="single-courses.html">Learn The Latest Skills</a>
+                            </h3>
+                            <p>Like business analytics, graphic design, Python, and more.</p>
+                            <a href="single-courses.html" class="featured-btn">View Courses +</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="motivation-featured-card">
+                            <div class="number">02</div>
+                            <h3>
+                                <a href="single-courses.html">100k Online Courses</a>
+                            </h3>
+                            <p>In high-demand fields like IT, AI and cloud engineering.</p>
+                            <a href="single-courses.html" class="featured-btn">View Courses +</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="motivation-featured-card">
+                            <div class="number">03</div>
+                            <h3>
+                                <a href="single-courses.html">Earn A Certificate</a>
+                            </h3>
+                            <p>From a leading university in business, computer science, and more.</p>
+                            <a href="single-courses.html" class="featured-btn">View Courses +</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Start FAQ Area -->
         <section class="faq-area ">
             <div class="container">
