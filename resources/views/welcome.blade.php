@@ -43,12 +43,11 @@
 
             <!-- Start Navbar Area -->
             <div class="navbar-area navbar-style-three">
-                <div class="raque-responsive-nav">
+                <div class="ino-responsive-nav">
                     <div class="container">
-                        <div class="raque-responsive-menu">
+                        <div class="ino-responsive-menu">
                             <div class="logo">
                                 <a href="index-5.html">
-                                    <img src="assets/img/logo1.png" class="black-logo" alt="logo">
                                     <img src="assets/img/logo1.png" class="white-logo" alt="logo">
                                 </a>
                             </div>
@@ -56,7 +55,7 @@
                     </div>
                 </div>
 
-                <div class="raque-nav">
+                <div class="ino-nav">
                     <div class="container">
                         <nav class="navbar navbar-expand-md navbar-light">
                             <a class="navbar-brand" href="index-5.html">
@@ -70,7 +69,7 @@
                                     </li>
                                     <li class="nav-item"><a href="#" class="nav-link">Blog <i class='bx bx-chevron-down'></i></a>
                                         <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="blog-style-1.html" class="nav-link">Artikel</a></li>
+                                            <li class="nav-item"><a href="artikel" class="nav-link">Artikel</a></li>
 
                                             <li class="nav-item"><a href="blog-style-2.html" class="nav-link">Dokumentasi</a></li>
                                         </ul>
@@ -87,7 +86,7 @@
 
             <!-- Start Sticky Navbar Area -->
             <div class="navbar-area navbar-style-three header-sticky">
-                <div class="raque-nav">
+                <div class="ino-nav">
                     <div class="container">
                         <nav class="navbar navbar-expand-md navbar-light">
                             <a class="navbar-brand" href="index-5.html">
@@ -101,7 +100,7 @@
                                     </li>
                                     <li class="nav-item"><a href="#" class="nav-link">Blog <i class='bx bx-chevron-down'></i></a>
                                         <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="blog-style-1.html" class="nav-link">Artikel</a></li>
+                                            <li class="nav-item"><a href="artikel" class="nav-link">Artikel</a></li>
 
                                             <li class="nav-item"><a href="blog-style-2.html" class="nav-link">Dokumentasi</a></li>
                                         </ul>
@@ -236,7 +235,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                         <div class="single-offer-box">
                             <div class="icon">
-                                <i class='bx bx-globe'></i>
+                                <i class='bx bx-briefcase-alt-2'></i>
                             </div>
                             <h3>Job Recommendation</h3>
                             <p>Menjadi penghubung antara mahasiswa bertalenta dengan mitra kami</p>
@@ -271,7 +270,6 @@
                                 <a href="single-courses.html">Learn The Latest Skills</a>
                             </h3>
                             <p>Like business analytics, graphic design, Python, and more.</p>
-                            <a href="single-courses.html" class="featured-btn">View Courses +</a>
                         </div>
                     </div>
 
@@ -282,7 +280,6 @@
                                 <a href="single-courses.html">100k Online Courses</a>
                             </h3>
                             <p>In high-demand fields like IT, AI and cloud engineering.</p>
-                            <a href="single-courses.html" class="featured-btn">View Courses +</a>
                         </div>
                     </div>
 
@@ -293,7 +290,6 @@
                                 <a href="single-courses.html">Earn A Certificate</a>
                             </h3>
                             <p>From a leading university in business, computer science, and more.</p>
-                            <a href="single-courses.html" class="featured-btn">View Courses +</a>
                         </div>
                     </div>
                 </div>
@@ -311,7 +307,6 @@
                                 <a href="single-courses.html">Learn The Latest Skills</a>
                             </h3>
                             <p>Like business analytics, graphic design, Python, and more.</p>
-                            <a href="single-courses.html" class="featured-btn">View Courses +</a>
                         </div>
                     </div>
 
@@ -322,7 +317,6 @@
                                 <a href="single-courses.html">100k Online Courses</a>
                             </h3>
                             <p>In high-demand fields like IT, AI and cloud engineering.</p>
-                            <a href="single-courses.html" class="featured-btn">View Courses +</a>
                         </div>
                     </div>
 
@@ -333,106 +327,14 @@
                                 <a href="single-courses.html">Earn A Certificate</a>
                             </h3>
                             <p>From a leading university in business, computer science, and more.</p>
-                            <a href="single-courses.html" class="featured-btn">View Courses +</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Start FAQ Area -->
-        <section class="faq-area ">
-            <div class="container">
-            <div class="section-title">
-                    <h2>Syarat Pendaftaran</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="faq-video">
-                            <img src="assets/img/business-coaching/faq.jpg" alt="image">
-
-                            <a href="https://www.youtube.com/watch?v=bk7McNUjWgw" class="video-btn popup-youtube"><i class='bx bx-play'></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-12">
-                        <div class="faq-accordion faq-accordion-style-two">
-                            <ul class="accordion">
-                                <li class="accordion-item">
-                                    <a class="accordion-title active" href="javascript:void(0)">
-                                        <i class='bx bx-chevron-down'></i>
-                                        Step 1
-                                    </a>
-    
-                                    <div class="accordion-content show">
-                                        <p>WNI dan berdomisili di seluruh Indonesia</p>
-                                    </div>
-                                </li>
-
-                                <li class="accordion-item">
-                                    <a class="accordion-title" href="javascript:void(0)">
-                                        <i class='bx bx-chevron-down'></i>
-                                        Step 2
-                                    </a>
-    
-                                    <div class="accordion-content">
-                                        <p>Minimal SMA/Sederajat</p>
-                                    </div>
-                                </li>
-
-                                <li class="accordion-item">
-                                    <a class="accordion-title" href="javascript:void(0)">
-                                        <i class='bx bx-chevron-down'></i>
-                                        Step 3
-                                    </a>
-    
-                                    <div class="accordion-content">
-                                        <p>Wajib mengikuti kelas bootcamp sesuai dengan jadwal yang ditentukan.</p>
-                                    </div>
-                                </li>
-
-                                <li class="accordion-item">
-                                    <a class="accordion-title" href="javascript:void(0)">
-                                        <i class='bx bx-chevron-down'></i>
-                                        Step 4
-                                    </a>
-    
-                                    <div class="accordion-content">
-                                        <p>Berkomitmen untuk menyelesaikan program bootcamp sampai selesai</p>
-                                    </div>
-                                </li>
-
-                                <li class="accordion-item">
-                                    <a class="accordion-title" href="javascript:void(0)">
-                                        <i class='bx bx-chevron-down'></i>
-                                        Step 5
-                                    </a>
-    
-                                    <div class="accordion-content">
-                                        <p>Mempunyai passion dibidang IT dan mempunyai semangat untuk belajar</p>
-                                    </div>
-                                </li>
-
-                                <li class="accordion-item">
-                                    <a class="accordion-title" href="javascript:void(0)">
-                                        <i class='bx bx-chevron-down'></i>
-                                        Step 6
-                                    </a>
-    
-                                    <div class="accordion-content">
-                                        <p>Memiliki laptop dengan spesifikasi minimal : OS : Linux OS (Ubuntu) / Windows 32/64 bit / MacOS Memory : 4GB RAM Memory (disarankan 8GB Memory)</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="divider bg-f9f9f9"></div>
-        </section>
-        <!-- End FAQ Area -->
+        
         <!-- Start Information Area -->
-        <section class="information-area ptb-100">
+        <section class="information-area ptb-80">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
@@ -786,22 +688,13 @@
                     <div class="logo">
                         <a href="index-5.html" class="d-inline-block"><img src="assets/img/logo1.png" alt="image"></a>
                     </div>
-                    <p><i class='bx bx-copyright'></i> <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear())</script> <a href="index-5.html" target="_blank">Raque</a> Designed By <a href="https://envytheme.com/" target="_blank">EnvyTheme</a> | All rights reserved.</p>
+                    <p><i class='bx bx-copyright'></i> <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear())</script> <a href="index-5.html" target="_blank">ino</a> Designed By <a href="https://envytheme.com/" target="_blank">EnvyTheme</a> | All rights reserved.</p>
                 </div>
             </div>
         </footer>
         <!-- End Footer Area -->
         
         <div class="go-top"><i class='bx bx-up-arrow-alt'></i></div>
-
-        <!-- Dark version -->
-        <div class="dark-version">
-            <label id="switch" class="switch">
-                <input type="checkbox" onchange="toggleTheme()" id="slider">
-                <span class="slider round"></span>
-            </label>
-        </div>
-        <!-- Dark version -->
 
         <!-- Links of JS files -->
         <script src="assets/js/jquery.min.js"></script>
