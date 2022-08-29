@@ -155,7 +155,6 @@
                                     <p>INOSOFT BOOTCAMP, Bootcamp bidang IT No.1 di Indonesia</p>
                                     <div class="btn-box">
                                         <a href="courses-2-columns-style-1.html" class="default-btn"><i class='bx bx-move-horizontal icon-arrow before'></i><span class="label">Daftar</span><i class="bx bx-move-horizontal icon-arrow after"></i></a>
-                                        <a href="contact.html" class="optional-btn">Lets Go</a>
                                     </div>
                                 </div>
                             </div>
@@ -190,8 +189,7 @@
                             <p>Inosoft Bootcamp adalah pelatihan selama 10 minggu yang diadakan Inosoft Trans Sistem untuk mengembangkan talent baru dibidang IT</p>
 
                             <div class="features-text">
-                                <h5><i class='bx bx-planet'></i>A place where you can achieve</h5>
-                                <p>Education encompasses both the teaching and learning of knowledge, proper conduct, and technical competency.</p>
+                                <<h5><i class='bx bx-planet'></i>A place where you can achieve</h5>
                             </div>
 
                             <a href="https://www.youtube.com/watch?v=3sP7eff9YCk" class="default-btn"><i class='bx bx-move-horizontal icon-arrow before'></i><span class="label">Tonton Video</span><i class="bx bx-move-horizontal icon-arrow after"></i></a>
@@ -266,30 +264,21 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="motivation-featured-card">
                             <div class="number">01</div>
-                            <h3>
-                                <a href="single-courses.html">Learn The Latest Skills</a>
-                            </h3>
-                            <p>Like business analytics, graphic design, Python, and more.</p>
+                            <p>WNI dan berdomisili di seluruh Indonesia</p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="motivation-featured-card">
-                            <div class="number">02</div>
-                            <h3>
-                                <a href="single-courses.html">100k Online Courses</a>
-                            </h3>
-                            <p>In high-demand fields like IT, AI and cloud engineering.</p>
+                            <div class="numbera">02</div>
+                            <p>Minimal SMA/Sederajat</p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="motivation-featured-card">
                             <div class="number">03</div>
-                            <h3>
-                                <a href="single-courses.html">Earn A Certificate</a>
-                            </h3>
-                            <p>From a leading university in business, computer science, and more.</p>
+                            <p>Wajib mengikuti kelas bootcamp sesuai dengan jadwal yang ditentukan</p>
                         </div>
                     </div>
                 </div>
@@ -302,31 +291,25 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-3 col-sm-6">
                         <div class="motivation-featured-card">
-                            <div class="number">01</div>
-                            <h3>
-                                <a href="single-courses.html">Learn The Latest Skills</a>
-                            </h3>
-                            <p>Like business analytics, graphic design, Python, and more.</p>
+                            <div class="numbera">04</div>
+                            <p>Berkomitmen untuk menyelesaikan program bootcamp sampai selesai</p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="motivation-featured-card">
-                            <div class="number">02</div>
-                            <h3>
-                                <a href="single-courses.html">100k Online Courses</a>
-                            </h3>
-                            <p>In high-demand fields like IT, AI and cloud engineering.</p>
+                            <div class="number">05</div>
+                            <p>Mempunyai passion di bidang IT dan mempunyai semangat untuk belajar </p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="motivation-featured-card">
-                            <div class="number">03</div>
-                            <h3>
-                                <a href="single-courses.html">Earn A Certificate</a>
-                            </h3>
-                            <p>From a leading university in business, computer science, and more.</p>
+                            <div class="numbera">06</div>
+                            <p>Memiliki laptop dengan spesifikasi minimal 
+                                OS : Linux OS (Ubuntu) / Windows
+                                32/64 bit / MacOS
+                                Memory : 4GB RAM Memory (disarankan 8GB Memory)</p>
                         </div>
                     </div>
                 </div>
@@ -350,26 +333,27 @@
                             <ul class="apply-details">
                                 <li>
                                     <div class="icon">
-                                        <i class="flaticon-checkmark"></i>
+                                        <i class="bx bx-pen"></i>
                                     </div>
-                                    <h3>Select Suitable Course</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                    <h3>PENDAFTARAN</h3>
+                                    <p>Dilakukan dengan cara mengisi formulir pada tanggal 
+                                        1 - 24 Juli 2022</p>
                                 </li>
 
                                 <li>
                                     <div class="icon">
-                                        <i class="flaticon-login"></i>
+                                        <i class="bx bx-list-ul"></i>
                                     </div>
-                                    <h3>Student Information</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                    <h3>SELEKSI</h3>
+                                    <p>Dilakukan secara online meliputi General Knowledge dan Logical Thinking Test pada 28 Juli 2022 pukul 16.30 WIB</p>
                                 </li>
                                 
                                 <li>
                                     <div class="icon">
-                                        <i class="flaticon-credit-card"></i>
+                                        <i class="bx bx-check"></i>
                                     </div>
-                                    <h3>Payment Information</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                    <h3>PELAKSANAAN</h3>
+                                    <p>Peserta terpilih akan mengikuti pelatihan intensif mulai pada bulan Agustus - Oktober 2022</p>
                                 </li>
                                 
                             </ul>
@@ -387,8 +371,8 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="become-instructor-partner-content bg-color">
                             <h2>Frontend Developer</h2>
-                            <p>Choose from hundreds of free courses, or get a degree or certificate at a breakthrough price. Learn at your own pace.</p>
-                            <a href="login.html" class="default-btn"><i class='bx bx-plus-circle icon-arrow before'></i><span class="label">Apply Now</span><i class="bx bx-plus-circle icon-arrow after"></i></a>
+                            <p>Frontend merupakan salah satu bagian dari website yang menampilkan tampilan pada para pengguna</p>
+                            <a href="login.html" class="default-btn"><i class='bx bx-plus-circle icon-arrow before'></i><span class="label">Lets Go</span><i class="bx bx-plus-circle icon-arrow after"></i></a>
                         </div>
                     </div>
 
@@ -407,8 +391,8 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="become-instructor-partner-content">
                             <h2>Backend Developer</h2>
-                            <p>Choose from hundreds of free courses, or get a degree or certificate at a breakthrough price. Learn at your own pace.</p>
-                            <a href="login.html" class="default-btn"><i class='bx bx-plus-circle icon-arrow before'></i><span class="label">Contact Us</span><i class="bx bx-plus-circle icon-arrow after"></i></a>
+                            <p>Backend merupakan bagian dari aplikasi yang bertanggung jawab untuk menyediakan kebutuhan yang tidak terlihat oleh pengguna</p>
+                            <a href="login.html" class="default-btn"><i class='bx bx-plus-circle icon-arrow before'></i><span class="label">Lets Go</span><i class="bx bx-plus-circle icon-arrow after"></i></a>
                         </div>
                     </div>
                 </div>
@@ -418,37 +402,7 @@
             
             <div id="particles-js-circle-bubble-2"></div>
         </section>
-        <!-- Start Courses Area -->
-        <section class="courses-area pt-100 pb-70">
-         <div class="training-overview-area ptb-100">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7 col-md-6">
-                        <div class="training-overview-content">
-                            <h3>
-                            Newsletter to get in touch
-                            </h3>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5 col-md-6">
-                        <div class="training-overview-btn">
-                        <<div class="newsletter__area">
-                    <div class="container newsletter__width">
-                        <div class="row">
-                            <div class="col-xxl-12">
-                                <div class="newsletter__wrapper">
-                                    <div class="newsletter__form">
-                                        <form>
-                                            <input type="email" placeholder="Your Email">
-                                            <button type="submit">Subscribe</button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        
                         </div>
                     </div>
                 </div>
@@ -464,47 +418,47 @@
             <div class="container">
                 <div class="section-title">
                     <span class="sub-title">Testimonials</span>
-                    <h2>What Students Says</h2>
+                    <h2>Apa Kata Alumni</h2>
                 </div>
 
                 <div class="testimonials-slides owl-carousel owl-theme">
                     <div class="single-testimonials-item">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>Selama bootcamp saya mendapat berbagai ilmu aspek penting dalam pemrograman dan keterampilan yang diperlukan seorang developer. Kalau kalian ingin mendalami bidang IT, bootcamp ini solusinya karena kita akan diajari dari nol dan akan lebih mudah belajar jika orang disekeliling kita melakukan hal yang sama</p>
 
                         <div class="info">
-                            <img src="assets/img/user1.jpg" class="shadow rounded-circle" alt="image">
-                            <h3>John Smith</h3>
-                            <span>Student</span>
+                            <img src="assets/img/Deva.png" class="shadow rounded-circle" alt="image">
+                            <h3>Deva</h3>
+                            <span>Alumni</span>
                         </div>
                     </div>
 
                     <div class="single-testimonials-item">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>Selama berada di Inosoft saya mendapatkan banyak pengalaman, baik pengalaman teknis dan non-teknis. Rekan kerja yang suportif membuat saya nyaman berada disin</p>
 
                         <div class="info">
-                            <img src="assets/img/user2.jpg" class="shadow rounded-circle" alt="image">
-                            <h3>Sarah Taylor</h3>
-                            <span>Student</span>
+                            <img src="assets/img/Adji.png" class="shadow rounded-circle" alt="image">
+                            <h3>Adji</h3>
+                            <span>Alumni</span>
                         </div>
                     </div>
 
                     <div class="single-testimonials-item">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>Saya sekarang bekerja di PT. Inosoft Trans Sistem. Saya mendapatkan pengalaman yang luar biasa dikarenakan teman sekerja yang suportif satu sama lain. Saya juga diajarkan dunia kerja yang membuat saya berkembang lebih pesat</p>
 
                         <div class="info">
-                            <img src="assets/img/user3.jpg" class="shadow rounded-circle" alt="image">
-                            <h3>David Warner</h3>
-                            <span>Student</span>
+                            <img src="assets/img/Dian.png" class="shadow rounded-circle" alt="image">
+                            <h3>Dian Adi</h3>
+                            <span>Alumni</span>
                         </div>
                     </div>
 
                     <div class="single-testimonials-item">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>Selama di Inosoft, saya merasa nyaman belajar sambil bekerja. Selain itu saya juga belajar bagaimana cara berkomunikasi, bekerja dalam tim, dan seniornya juga asik-asik. Mereka membagikan banyak ilmu dan tips yang bermanfaat. Lingkungan yang tidak monoton dan jam kerja yang sangat fleksibel</p>
 
                         <div class="info">
-                            <img src="assets/img/user4.jpg" class="shadow rounded-circle" alt="image">
-                            <h3>James Anderson</h3>
-                            <span>Student</span>
+                            <img src="assets/img/Diaz.png" class="shadow rounded-circle" alt="image">
+                            <h3>Diaz</h3>
+                            <span>Alumni</span>
                         </div>
                     </div>
                 </div>
@@ -515,10 +469,14 @@
        <!-- Start Blog Area -->
        <section class="blog-area pt-100 pb-70">
             <div class="container">
+            <!-- <div class="section-title">
+                    <span class="sub-title">EXPLORE NEWS</span>
+                    <h2>Our Blogs</h2>
+                </div> -->
                 <div class="section-title text-left">
                     <span class="sub-title">Explore News</span>
-                    <h2>Our Latest Insights</h2>
-                    <a href="blog-style-1.html" class="default-btn"><i class='bx bx-book-reader icon-arrow before'></i><span class="label">Read All</span><i class="bx bx-book-reader icon-arrow after"></i></a>
+                    <h2>Blog</h2>
+                            <!-- <a href="" class="default-btn"><i class='bx bx-book-reader icon-arrow before'></i><span class="label">Read All</span><i class="bx bx-book-reader icon-arrow after"></i></a>  -->
                 </div>
                 
                 <div class="row justify-content-center">
@@ -536,12 +494,14 @@
                                 </div>
                                 <ul class="post-meta">
                                     <li class="post-author">
-                                        <img src="assets/img/user1.jpg" class="d-inline-block rounded-circle mr-2" alt="image">
-                                        By: <a href="#" class="d-inline-block">Steven Smith</a>
+                                        <img src="assets/img/Diaz.png" class="d-inline-block rounded-circle mr-2" alt="image">
+                                        By: <a href="#" class="d-inline-block">Diaz</a>
                                     </li>
                                     <li class="date"><i class='bx bxs-calendar'></i> 01/25/2022</li>
                                 </ul>
-                                <h3><a href="single-blog.html" class="d-inline-block">Global education: ideas for the way move forward</a></h3>
+                                <h3><a href="single-blog.html" class="d-inline-block">Ngoding With View</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Montes porta.</p>
+
                                 <a href="single-blog.html" class="read-more-btn">Read More</a>
                             </div>
                         </div>
@@ -561,12 +521,14 @@
                                 </div>
                                 <ul class="post-meta">
                                     <li class="post-author">
-                                        <img src="assets/img/user2.jpg" class="d-inline-block rounded-circle mr-2" alt="image">
-                                        By: <a href="#" class="d-inline-block">Justin Vance</a>
+                                        <img src="assets/img/Diaz.png" class="d-inline-block rounded-circle mr-2" alt="image">
+                                        By: <a href="#" class="d-inline-block">Diaz</a>
                                     </li>
                                     <li class="date"><i class='bx bxs-calendar'></i> 01/25/2022</li>
                                 </ul>
-                                <h3><a href="single-blog.html" class="d-inline-block">New report reimagines the broader education workforce</a></h3>
+                                <h3><a href="single-blog.html" class="d-inline-block">Interview</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Montes porta.</p>
+
                                 <a href="single-blog.html" class="read-more-btn">Read More</a>
                             </div>
                         </div>
@@ -586,18 +548,24 @@
                                 </div>
                                 <ul class="post-meta">
                                     <li class="post-author">
-                                        <img src="assets/img/user3.jpg" class="d-inline-block rounded-circle mr-2" alt="image">
-                                        By: <a href="#" class="d-inline-block">William Gerard</a>
+                                        <img src="assets/img/Diaz.png" class="d-inline-block rounded-circle mr-2" alt="image">
+                                        By: <a href="#" class="d-inline-block">Diaz</a>
                                     </li>
                                     <li class="date"><i class='bx bxs-calendar'></i> 01/25/2022</li>
                                 </ul>
-                                <h3><a href="single-blog.html" class="d-inline-block">What’s going on in this picture? | Jan. 13, 2022</a></h3>
+                                <h3><a href="single-blog.html" class="d-inline-block">backend Programming </a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Montes porta.</p>
+
                                 <a href="single-blog.html" class="read-more-btn">Read More</a>
                             </div>
                         </div>
-                    </div>
+                    </div> 
+                    <div class="section-button text-left">
+                            <a href="" class="default-btn"><i class='bx bx-book-reader icon-arrow before'></i><span class="label">Read All</span><i class="bx bx-book-reader icon-arrow after"></i></a> 
+                            </div>       
                 </div>
             </div>
+            
         </section>
         <!-- End Blog Area -->
 
@@ -612,54 +580,46 @@
                             <ul class="contact-us-link">
                                 <li>
                                     <i class='bx bx-map'></i>
-                                    <a href="#" target="_blank">2750 Quadra Street Victoria Road, New York, USA</a>
+                                    <a href="#" target="_blank">Jl. Penjaringan Sari YKP Pandugo 2 No.1, Penjaringan Sari, Kec. Rungkut, Kota SBY, Jawa Timur 60297</a>
                                 </li>
                                 <li>
                                     <i class='bx bx-phone-call'></i>
-                                    <a href="#">+1 (123) 456 7890</a>
+                                    <a href="#">(031) 8700688</a>
                                 </li>
                                 <li>
                                     <i class='bx bx-envelope'></i>
-                                    <a href="#"><span class="__cf_email__" data-cfemail="3f575a5353507f4d5e4e4a5a115c5052">[email&#160;protected]</span></a>
+                                    <a href="#"><span class="__cf_email__" data-cfemail="3f575a5353507f4d5e4e4a5a115c5052">evy@inosoftweb.com </span></a>
                                 </li>
                             </ul>
 
                             <ul class="social-link">
-                                <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-facebook'></i></a></li>
-                                <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-twitter'></i></a></li>
-                                <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-instagram'></i></a></li>
-                                <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
-                                <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-pinterest-alt'></i></a></li>
+                                <li><a href="#" class="d-block" target="_blank"><i class='bx bxl-whatsapp'></i></a></li>
+                                <li><a href="https://www.instagram.com/inosoftbootcamp/" class="d-block" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                                
                             </ul>
                         </div>
                     </div>
 
                     <div class="col-lg-2 col-md-6 col-sm-6">
                         <div class="single-footer-widget mb-30">
-                            <h3>Support</h3>
-
-                            <ul class="support-link">
-                                <li><a href="#">Privacy</a></li>
-                                <li><a href="#">FAQ's</a></li>
-                                <li><a href="#">Support</a></li>
-                                <li><a href="#">Terms</a></li>
-                                <li><a href="#">Condition</a></li>
-                                <li><a href="#">Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6 col-sm-6">
-                        <div class="single-footer-widget mb-30">
-                            <h3>Useful Link</h3>
+                            <h3>Blog</h3>
 
                             <ul class="useful-link">
-                                <li><a href="#">Web Design</a></li>
-                                <li><a href="#">UI/UX Design</a></li>
-                                <li><a href="#">WP Development</a></li>
-                                <li><a href="#">App</a></li>
-                                <li><a href="#">Whitepaper</a></li>
-                                <li><a href="#">Web Development</a></li>
+                                <li><a href="#">Artikel</a></li>
+                                <li><a href="#">Dokumentasi</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget mb-30">
+                            <h3>Course</h3>
+
+                            <ul class="useful-link">
+                                <li><a href="#">Frontend Developer</a></li>
+                                <li><a href="#">Backend Developer</a></li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -688,7 +648,7 @@
                     <div class="logo">
                         <a href="index-5.html" class="d-inline-block"><img src="assets/img/logo1.png" alt="image"></a>
                     </div>
-                    <p><i class='bx bx-copyright'></i> <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear())</script> <a href="index-5.html" target="_blank">ino</a> Designed By <a href="https://envytheme.com/" target="_blank">EnvyTheme</a> | All rights reserved.</p>
+                    <p><i class='bx bx-copyright'></i> <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear())</script> <a href="index-5.html" target="_blank"></a>All Copyright Reserved. Developed by  <a  target="_blank">Inosoft</a>
                 </div>
             </div>
         </footer>
