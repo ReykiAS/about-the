@@ -189,7 +189,7 @@
                             <p>Inosoft Bootcamp adalah pelatihan selama 10 minggu yang diadakan Inosoft Trans Sistem untuk mengembangkan talent baru dibidang IT</p>
 
                             <div class="features-text">
-                                <<h5><i class='bx bx-planet'></i>A place where you can achieve</h5>
+                                <h5><i class='bx bx-planet'></i>It's not enough to be better, strive to be the best</h5>
                             </div>
 
                             <a href="https://www.youtube.com/watch?v=3sP7eff9YCk" class="default-btn"><i class='bx bx-move-horizontal icon-arrow before'></i><span class="label">Tonton Video</span><i class="bx bx-move-horizontal icon-arrow after"></i></a>
@@ -263,22 +263,28 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-3 col-sm-6">
                         <div class="motivation-featured-card">
+                        <div style="width:100%" class="text-center">
                             <div class="number">01</div>
                             <p>WNI dan berdomisili di seluruh Indonesia</p>
+                        </div>  
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="motivation-featured-card">
+                        <div style="width:100%" class="text-center">
                             <div class="numbera">02</div>
                             <p>Minimal SMA/Sederajat</p>
                         </div>
+                        </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="motivation-featured-card">
+                        <div style="width:100%" class="text-center">
                             <div class="number">03</div>
                             <p>Wajib mengikuti kelas bootcamp sesuai dengan jadwal yang ditentukan</p>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -291,21 +297,26 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-3 col-sm-6">
                         <div class="motivation-featured-card">
+                        <div style="width:100%" class="text-center">
                             <div class="numbera">04</div>
                             <p>Berkomitmen untuk menyelesaikan program bootcamp sampai selesai</p>
                         </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="motivation-featured-card">
-                            <div class="number">05</div>
-                            <p>Mempunyai passion di bidang IT dan mempunyai semangat untuk belajar </p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="motivation-featured-card">
-                            <div class="numbera">06</div>
+                        <div style="width:100%" class="text-center">
+                            <div class="number">05</div>
+                            <p>Mempunyai passion di bidang IT dan mempunyai semangat untuk belajar </p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="motivation-featured-card">
+                            <div style="width:100%" class="text-center">
+                            <div class="numbera">06</div></div>
                             <p>Memiliki laptop dengan spesifikasi minimal 
                                 OS : Linux OS (Ubuntu) / Windows
                                 32/64 bit / MacOS
@@ -317,7 +328,7 @@
         </div>
         
         <!-- Start Information Area -->
-        <section class="information-area ptb-80">
+        <section class="information-area ptb-100">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
@@ -333,7 +344,7 @@
                             <ul class="apply-details">
                                 <li>
                                     <div class="icon">
-                                        <i class="bx bx-pen"></i>
+                                        <i class="bx bx-pen my-auto mx-auto"></i>
                                     </div>
                                     <h3>PENDAFTARAN</h3>
                                     <p>Dilakukan dengan cara mengisi formulir pada tanggal 
@@ -342,7 +353,7 @@
 
                                 <li>
                                     <div class="icon">
-                                        <i class="bx bx-list-ul"></i>
+                                        <i class="bx bx-list-ul my-auto mx-auto"></i>
                                     </div>
                                     <h3>SELEKSI</h3>
                                     <p>Dilakukan secara online meliputi General Knowledge dan Logical Thinking Test pada 28 Juli 2022 pukul 16.30 WIB</p>
@@ -350,7 +361,7 @@
                                 
                                 <li>
                                     <div class="icon">
-                                        <i class="bx bx-check"></i>
+                                        <i class="bx bx-check my-auto mx-auto"></i>
                                     </div>
                                     <h3>PELAKSANAAN</h3>
                                     <p>Peserta terpilih akan mengikuti pelatihan intensif mulai pada bulan Agustus - Oktober 2022</p>
@@ -414,7 +425,7 @@
         <!-- End Courses Area -->
 
         <!-- Start Testimonials Area -->
-        <section class="testimonials-area pt-80">
+        <section class="testimonials-area pt-100">
             <div class="container">
                 <div class="section-title">
                     <span class="sub-title">Testimonials</span>
@@ -469,13 +480,13 @@
        <!-- Start Blog Area -->
        <section class="blog-area pt-100 pb-70">
             <div class="container">
-            <!-- <div class="section-title">
+            <div class="section-title">
                     <span class="sub-title">EXPLORE NEWS</span>
                     <h2>Our Blogs</h2>
-                </div> -->
+                </div>
                 <div class="section-title text-left">
-                    <span class="sub-title">Explore News</span>
-                    <h2>Blog</h2>
+                    <!-- <span class="sub-title">Explore News</span>
+                    <h2>Blog</h2> -->
                             <!-- <a href="" class="default-btn"><i class='bx bx-book-reader icon-arrow before'></i><span class="label">Read All</span><i class="bx bx-book-reader icon-arrow after"></i></a>  -->
                 </div>
                 
@@ -560,9 +571,12 @@
                             </div>
                         </div>
                     </div> 
-                    <div class="section-button text-left">
+                    <!-- <div class="section-button text-left">
                             <a href="" class="default-btn"><i class='bx bx-book-reader icon-arrow before'></i><span class="label">Read All</span><i class="bx bx-book-reader icon-arrow after"></i></a> 
-                            </div>       
+                            </div> -->
+                    <div class="section-button1 text-left">
+                            <a href="" class="default-btn"><i class='bx bx-book-reader icon-arrow before'></i><span class="label">Read All</span><i class="bx bx-book-reader icon-arrow after"></i></a> 
+                    </div>              
                 </div>
             </div>
             
@@ -648,7 +662,15 @@
                     <div class="logo">
                         <a href="index-5.html" class="d-inline-block"><img src="assets/img/logo1.png" alt="image"></a>
                     </div>
-                    <p><i class='bx bx-copyright'></i> <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear())</script> <a href="index-5.html" target="_blank"></a>All Copyright Reserved. Developed by  <a  target="_blank">Inosoft</a>
+                <div class="containerr">                  
+                    <div class="back-copy-left">@ 2022 All Copyright Reserved. Developed by <a href="#">Inosoft</a></div>
+                    <div class="back-copy-right">
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms And Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
                 </div>
             </div>
         </footer>
